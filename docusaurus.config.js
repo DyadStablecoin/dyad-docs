@@ -67,6 +67,12 @@ const config = {
         },
         items: [
           {
+            type: "doc",
+            docId: "intro",
+            position: "left",
+            label: "Documentation",
+          },
+          {
             href: `https://github.com/${organizationName}/${projectName}`,
             label: "GitHub",
             position: "right",
