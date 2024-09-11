@@ -60,19 +60,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "My Site",
+        title: "DYAD",
         logo: {
-          alt: "My Site Logo",
-          src: "img/logo.svg",
+          alt: "DYAD",
+          src: "img/dyad.png",
         },
         items: [
-          {
-            type: "doc",
-            docId: "intro",
-            position: "left",
-            label: "Tutorial",
-          },
-          { to: "/blog", label: "Blog", position: "left" },
           {
             href: `https://github.com/${organizationName}/${projectName}`,
             label: "GitHub",
@@ -96,16 +89,12 @@ const config = {
             title: "Community",
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
-              },
-              {
                 label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
+                href: "https://discord.gg/dyad",
               },
               {
-                label: "Twitter",
-                href: "https://twitter.com/docusaurus",
+                label: "X",
+                href: "https://x.com/0xDYAD",
               },
             ],
           },
@@ -113,17 +102,13 @@ const config = {
             title: "More",
             items: [
               {
-                label: "Blog",
-                to: "/blog",
-              },
-              {
                 label: "GitHub",
-                href: `https://github.com/${organizationName}/${projectName}`,
+                href: `https://github.com/${organizationName}`,
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} DYAD.`,
       },
       prism: {
         theme: lightCodeTheme,
